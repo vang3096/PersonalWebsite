@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class SbAdminCliUpdatePage {
+export class PersonalWebsitePage {
   navigateTo() {
     return browser.get('/');
   }

@@ -1,10 +1,10 @@
-import { SbAdminCliUpdatePage } from './app.po';
+import { PersonalWebsitePage } from './app.po';
 
-describe('sb-admin-cli-update App', () => {
-  let page: SbAdminCliUpdatePage;
+describe('personal-website App', () => {
+  let page: PersonalWebsitePage;
 
   beforeEach(() => {
-    page = new SbAdminCliUpdatePage();
+    page = new PersonalWebsitePage();
   });
 
   it('should display welcome message', () => {
